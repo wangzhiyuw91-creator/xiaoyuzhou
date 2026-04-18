@@ -1,0 +1,8 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "ai-nav"
+compatibility_date = "2024-04-01"
+pages_build_output_dir = "dist"
+
+[vars]
+# Ensure environment variables are set in Cloudflare dashboard
+# GEMINI_API_KEY = ""
